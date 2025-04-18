@@ -199,7 +199,7 @@ export default function BlogPage() {
       const adminPosts = JSON.parse(savedPosts)
 
       // Combine admin posts with base posts
-      const allPosts = [...baseBlogPosts, ...adminPosts]
+      const allPosts = [...adminPosts,...baseBlogPosts]
       setBlogPosts(allPosts)
 
       // Extract unique categories
