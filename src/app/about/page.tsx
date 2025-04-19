@@ -24,7 +24,7 @@ const team = [
   {
     name: "Vimal Singh",
     position: " CTO ",
-    image: "Vimal.jpeg"
+    image: "/hacks_v5_images/vimal.jpeg"
   }
 ]
 
